@@ -1,0 +1,61 @@
+@import "vars";
+@import "libs";
+@import "fonts";
+
+header {
+  background: url("../img/main-bg.png") center no-repeat;
+  background-size: cover;
+}
+.header-title h1 {
+  color: #f1cdb3;
+  font-family: "Georgia", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 1.13px;
+  margin-bottom: 8px;
+}
+.header-title span {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1.3px;
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2.3em 0;
+}
+.header-menu a {
+  color: #cdcdcd;
+  font-size: 15px;
+  font-weight: 400;
+}
+.header-menu a:hover,
+:active,
+:focus,
+:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+.header-block {
+  padding-top: 251px;
+  padding-bottom: 269px;
+}
+.header-block h2 {
+  color: #ffffff;
+  font-family: Georgia;
+  font-size: 44px;
+  font-weight: 400;
+  letter-spacing: 2.64px;
+}
+.header-block p {
+  margin: 45px 0;
+  width: 443px;
+  height: 62px;
+  color: #cdcdcd;
+  font-family: "Arial MT";
+  font-size: 15px;
+  font-weight: 400;
+}
+@import "media";
