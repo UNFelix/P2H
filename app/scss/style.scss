@@ -54,7 +54,22 @@ header {
   width: 443px;
   height: 62px;
   color: #cdcdcd;
-  font-family: "Arial MT";
+  font-size: 15px;
+  font-weight: 400;
+}
+.about {
+  margin: 89px 0;
+}
+.about h2 {
+  color: #545454;
+  font-family: Georgia;
+  font-size: 34px;
+  font-weight: 400;
+  letter-spacing: 2.1px;
+  margin: 35px 0;
+}
+.about p {
+  color: #4c4c4c;
   font-size: 15px;
   font-weight: 400;
 }
