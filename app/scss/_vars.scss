@@ -8,3 +8,26 @@
   font-weight: 400;
   letter-spacing: 1.02px;
 }
+.btn-white {
+  background-color: #fafafa;
+  color: #292929;
+  border-radius: 26px;
+  border: 2px solid #f1cdb3;
+}
+.btn-big {
+  margin: 68px auto;
+}
+
+.slider-item {
+  width: 320px;
+  height: 424px;
+  padding: 0 25px;
+  background-color: #fafafa;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: column;
+}
+.slider-item img {
+  width: 100%;
+}
