@@ -20,6 +20,13 @@
 .slick-slide slick-active {
   text-align: center;
 }
+.slick-slide :hover,
+:active,
+:focus {
+  box-shadow: 0 2px 30px 5px rgba(13, 13, 13, 0.04);
+  border-radius: 9px;
+  background-color: #fafafa;
+}
 .slick-slide img {
   margin: auto;
   min-height: 270px;

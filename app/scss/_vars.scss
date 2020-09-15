@@ -11,8 +11,12 @@
 .btn-white {
   background-color: #fafafa;
   color: #292929;
-  border-radius: 26px;
+  border-radius: 35px;
   border: 2px solid #f1cdb3;
+}
+.btn-white :hover,
+:focus {
+  background-color: #f1cdb3 !important;
 }
 .btn-big {
   margin: 68px auto;
@@ -28,7 +32,16 @@
   justify-content: flex-end;
   flex-flow: column;
   min-width: 0;
+  outline: none;
 }
+.slider-item h3 {
+  color: #545454;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  padding: 25px 0;
+}
+
 // .slider-item img {
 //   // width: 100%;
 // }

@@ -82,6 +82,11 @@ header {
 }
 .friends h2 {
   text-align: center;
+  color: #545454;
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: 2.1px;
+  margin: 75px 0;
 }
 .slider {
   display: flex;
@@ -114,6 +119,77 @@ header {
 .help-item img {
   max-width: 50px;
   margin: auto;
+}
+.donation {
+  background-color: #f6f6f6;
+  padding-top: 71px;
+  padding-bottom: 84px;
+  color: #545454;
+}
+.left {
+  width: 100%;
+}
+.donation h2 {
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: 2.1px;
+  max-width: 358px;
+}
+.donation span {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.9px;
+}
+.donation .btn {
+  padding: 15px 30px;
+  border-radius: 12px;
+  margin-top: 13px;
+  margin-bottom: 34px;
+}
+.donation a {
+  color: #292929;
+  font-family: "Times New Roman PSMT";
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+}
+.donation a :hover,
+:focus {
+  text-decoration: none;
+}
+.donation p {
+  color: #b2b2b2;
+  font-family: "Arial - Italic MT";
+  font-size: 12px;
+  font-weight: 400;
+  max-width: 351px;
+}
+footer {
+  background: url("../img/footer/footer-bg.png") center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 78px;
+  flex-wrap: wrap;
+}
+footer h2 {
+  color: #ffffff;
+  font-family: Georgia;
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: 2.1px;
+}
+footer span {
+  color: #f1cdb3;
+  font-family: "Times New Roman PSMT";
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  margin-left: 20px;
+}
+.footer-block-item {
+  margin: 34px 0;
 }
 
 @import "media";
