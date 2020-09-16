@@ -1,17 +1,24 @@
 $(document).ready(function () {
   $(".slider").slick({
-    slidesToShow: 3,
+    slidesToShow: 1,
     speed: 1500,
     easing: "ease",
     infinite: true,
     // autoplay: true,
     // autoplaySpeed: 2500,
-    centerMode: true,
+    // centerMode: true,
+    // variableWidth: true,
     responsive: [
       {
-        breapoint: 768,
+        breakpoint: 1366,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
         },
       },
     ],

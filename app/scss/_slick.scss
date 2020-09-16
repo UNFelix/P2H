@@ -20,13 +20,9 @@
 .slick-slide slick-active {
   text-align: center;
 }
-.slick-slide :hover,
-:active,
-:focus {
-  box-shadow: 0 2px 30px 5px rgba(13, 13, 13, 0.04);
-  border-radius: 9px;
-  background-color: #fafafa;
-}
+// .slick-slide {
+//   margin: 0 100px;
+// }
 .slick-slide img {
   margin: auto;
   min-height: 270px;
@@ -84,9 +80,15 @@
   left: 0;
   background: url("../img/prev-arrow.png") 17px 20px no-repeat;
 }
+.slider .slick-arrow.slick-prev:hover {
+  background-color: #f1cdb3;
+}
 .slider .slick-arrow.slick-next {
   right: 0;
   background: url("../img/next-arrow.png") 17px 20px no-repeat;
+}
+.slider .slick-arrow.slick-next:hover {
+  background-color: #f1cdb3;
 }
 .slider .slick-arrow.slick-disabled {
   opacity: 0.3;

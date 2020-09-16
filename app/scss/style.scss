@@ -26,20 +26,22 @@ header {
   align-items: center;
   justify-content: space-between;
   margin: 2.3em 0;
+  padding: 5px 0;
 }
 .header-menu a {
   color: #cdcdcd;
   font-size: 15px;
   font-weight: 400;
   line-height: normal;
+  padding-bottom: 2px;
 }
-.header-menu a:hover,
-:active,
-:focus {
+.header-menu a:hover {
   text-decoration: none;
   color: #ffffff;
   border-bottom: 2px solid #f1cdb3;
+  box-sizing: border-box;
   border-radius: 2px;
+  padding-bottom: 0;
 }
 .header-block {
   padding-top: 251px;
@@ -100,6 +102,14 @@ header {
   width: 65%;
   margin: 0 auto;
 }
+.slider-item {
+  padding-bottom: 20px;
+}
+.slider-item:hover {
+  box-shadow: 0 2px 30px 5px rgba(13, 13, 13, 0.04);
+  border-radius: 9px;
+  background-color: #fafafa;
+}
 .help h2 {
   text-align: center;
   margin-top: 72px;
@@ -152,6 +162,8 @@ header {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 1.2px;
+  padding-left: 10px;
+  text-decoration: none;
 }
 .donation a :hover,
 :focus {
