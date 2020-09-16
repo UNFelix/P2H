@@ -103,12 +103,28 @@ header {
   margin: 0 auto;
 }
 .slider-item {
-  padding-bottom: 20px;
+  height: 424px !important;
+  background-color: #fafafa;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: column;
+  min-width: 0;
+  outline: none;
 }
 .slider-item:hover {
   box-shadow: 0 2px 30px 5px rgba(13, 13, 13, 0.04);
   border-radius: 9px;
   background-color: #fafafa;
+  z-index: 99;
+  position: relative;
+}
+.slider-item h3 {
+  color: #545454;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  padding: 20px 0;
 }
 .help h2 {
   text-align: center;

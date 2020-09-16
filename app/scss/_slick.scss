@@ -77,14 +77,14 @@
   outline: none;
 }
 .slider .slick-arrow.slick-prev {
-  left: 0;
+  left: -15px;
   background: url("../img/prev-arrow.png") 17px 20px no-repeat;
 }
 .slider .slick-arrow.slick-prev:hover {
   background-color: #f1cdb3;
 }
 .slider .slick-arrow.slick-next {
-  right: 0;
+  right: -15px;
   background: url("../img/next-arrow.png") 17px 20px no-repeat;
 }
 .slider .slick-arrow.slick-next:hover {
